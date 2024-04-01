@@ -1,10 +1,12 @@
 {
-  "name": "paree123-cli-number-guessing-game",
+  "name": "paree-cli-number-guessing-game",
   "version": "1.0.1",
   "description": "This is a cli based number guessing game.",
   "main": "index.js",
   "type": "module",
-  "bin": "main.js",
+  "bin": {
+    "paree-cli-number-guessing-game": "main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.17",
-    "paree123-cli-number-guessing-game": "^1.0.1"
+    "paree-cli-number-guessing-game": "^1.0.1"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"

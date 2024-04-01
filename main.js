@@ -1,9 +1,7 @@
 #! usr/bin/env node
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var inquirer_1 = require("inquirer");
-var randomNumber = Math.floor(Math.random() * 5 + 1);
-var answers = await inquirer_1.default.prompt([
+import inquirer from "inquirer";
+const randomNumber = Math.floor(Math.random() * 5 + 1);
+const answers = await inquirer.prompt([
     {
         name: "Numberguessedbyuser",
         type: "number",

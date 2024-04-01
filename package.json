@@ -16,8 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "paree123-cli-number-guessing-game": "^1.0.0",
-    "inquirer": "^9.2.17"
+    "inquirer": "^9.2.17",
+    "paree123-cli-number-guessing-game": "^1.0.1"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
